@@ -5,6 +5,7 @@ import 'package:math_expressions/math_expressions.dart';
 
 void main() {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: CalculatorApp(),
   ));
 }
